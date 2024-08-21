@@ -1,6 +1,6 @@
 //
 //  JY_Refresh_TableView.swift
-//  JY_Refresh_CollectionView
+//  JY_Refresh_TableView
 //
 //  Created by One Lang on 2024/8/21.
 //
@@ -28,7 +28,7 @@ class JY_Refresh_TableView: UITableView {
 }
 
 extension JY_Refresh_TableView {
-    @objc func yq_set_refresh() {
+    @objc dynamic open func yq_set_refresh() {
         if mj_header != nil {
             mj_header = nil
         }
@@ -42,7 +42,7 @@ extension JY_Refresh_TableView {
         mj_footer?.isHidden = yq_hidden_footer_refresh
     }
     
-    func yq_remove_refresh() {
+    public func yq_remove_refresh() {
         mj_header = nil
         mj_footer = nil
     }
@@ -50,33 +50,33 @@ extension JY_Refresh_TableView {
 
 extension JY_Refresh_TableView {
 
-    func yq_show_refresh() {
+    public func yq_show_refresh() {
         yq_hidden_header_refresh = false
         yq_hidden_footer_refresh = false
         mj_header?.isHidden = yq_hidden_header_refresh
         mj_footer?.isHidden = yq_hidden_footer_refresh
     }
     
-    func yq_hidden_refresh() {
+    public func yq_hidden_refresh() {
         yq_hidden_header_refresh = true
         yq_hidden_footer_refresh = true
         mj_header?.isHidden = yq_hidden_header_refresh
         mj_footer?.isHidden = yq_hidden_footer_refresh
     }
 
-    @objc func yq_hidden_header_refresh(isHidden: Bool) {
+    @objc public func yq_hidden_header_refresh(isHidden: Bool) {
         yq_hidden_header_refresh = isHidden
         mj_header?.isHidden = yq_hidden_header_refresh
     }
     
-    @objc func yq_hidden_footer_refresh(isHidden: Bool) {
+    @objc public func yq_hidden_footer_refresh(isHidden: Bool) {
         yq_hidden_footer_refresh = isHidden
         mj_footer?.isHidden = yq_hidden_footer_refresh
     }
 }
 
 extension JY_Refresh_TableView {
-    @objc func yq_load_data(){
+    @objc public func yq_load_data(){
         if yq_hidden_header_refresh == true {
             yq_end_header_refresh()
             return
@@ -91,7 +91,7 @@ extension JY_Refresh_TableView {
         }
     }
     
-    @objc func yq_begin_header_refresh() {
+    @objc public func yq_begin_header_refresh() {
         if yq_hidden_header_refresh == true {
             yq_end_header_refresh()
             return
@@ -104,14 +104,14 @@ extension JY_Refresh_TableView {
         mj_header?.beginRefreshing()
     }
     
-    func yq_end_header_refresh() {
+    public func yq_end_header_refresh() {
         mj_header?.endRefreshing()
     }
 }
 
 extension JY_Refresh_TableView {
 
-    @objc func yq_request_more_data() {
+    @objc public func yq_request_more_data() {
         if yq_hidden_footer_refresh == true {
             yq_end_footer_refresh()
             return
@@ -122,7 +122,7 @@ extension JY_Refresh_TableView {
         }
     }
     
-    func yq_begin_footer_refresh() {
+    public func yq_begin_footer_refresh() {
         if yq_hidden_footer_refresh == true {
             yq_end_footer_refresh()
             return
@@ -131,15 +131,15 @@ extension JY_Refresh_TableView {
         mj_footer?.beginRefreshing()
     }
     
-    func yq_end_footer_refresh() {
+    public func yq_end_footer_refresh() {
         mj_footer?.endRefreshing()
     }
     
-    func yq_end_footer_refresh_with_noMore() {
+    public func yq_end_footer_refresh_with_noMore() {
         mj_footer?.endRefreshingWithNoMoreData()
     }
     
-    func yq_reset_footer_refresh() {
+    public func yq_reset_footer_refresh() {
         mj_footer?.resetNoMoreData()
     }
 }

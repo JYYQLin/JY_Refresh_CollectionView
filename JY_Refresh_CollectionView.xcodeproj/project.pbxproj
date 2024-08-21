@@ -8,27 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8E9CCD0D5D850DA46E09E1B6 /* Pods_JY_Refresh_CollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90161AE742159DD98925DBE /* Pods_JY_Refresh_CollectionView.framework */; };
-		A1148C3A2C75DEFD0061CA8B /* JY_Refresh_CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1148C392C75DEFD0061CA8B /* JY_Refresh_CollectionView.swift */; };
-		A1148C3C2C75DF2B0061CA8B /* JY_Refresh_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1148C3B2C75DF2B0061CA8B /* JY_Refresh_TableView.swift */; };
-		A121636B2C75DD1200BF169A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121636A2C75DD1200BF169A /* AppDelegate.swift */; };
-		A121636D2C75DD1200BF169A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121636C2C75DD1200BF169A /* SceneDelegate.swift */; };
-		A121636F2C75DD1200BF169A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121636E2C75DD1200BF169A /* ViewController.swift */; };
-		A12163722C75DD1200BF169A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A12163712C75DD1200BF169A /* Base */; };
-		A12163742C75DD1300BF169A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12163732C75DD1300BF169A /* Assets.xcassets */; };
-		A12163772C75DD1300BF169A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A12163762C75DD1300BF169A /* Base */; };
+		A11C6F9F2C75EF4F009539FC /* JY_Refresh_BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11C6F9C2C75EF4F009539FC /* JY_Refresh_BaseView.swift */; };
+		A11C6FA02C75EF4F009539FC /* JY_Refresh_CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11C6F9D2C75EF4F009539FC /* JY_Refresh_CollectionView.swift */; };
+		A11C6FA12C75EF4F009539FC /* JY_Refresh_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11C6F9E2C75EF4F009539FC /* JY_Refresh_TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C7179514B3EC81AE3011C0F /* Pods-JY_Refresh_CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JY_Refresh_CollectionView.debug.xcconfig"; path = "Target Support Files/Pods-JY_Refresh_CollectionView/Pods-JY_Refresh_CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
-		A1148C392C75DEFD0061CA8B /* JY_Refresh_CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_Refresh_CollectionView.swift; sourceTree = "<group>"; };
-		A1148C3B2C75DF2B0061CA8B /* JY_Refresh_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_Refresh_TableView.swift; sourceTree = "<group>"; };
+		A11C6F9C2C75EF4F009539FC /* JY_Refresh_BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_BaseView.swift; sourceTree = "<group>"; };
+		A11C6F9D2C75EF4F009539FC /* JY_Refresh_CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_CollectionView.swift; sourceTree = "<group>"; };
+		A11C6F9E2C75EF4F009539FC /* JY_Refresh_TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Refresh_TableView.swift; sourceTree = "<group>"; };
 		A12163672C75DD1200BF169A /* JY_Refresh_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JY_Refresh_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A121636A2C75DD1200BF169A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A121636C2C75DD1200BF169A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A121636E2C75DD1200BF169A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A12163712C75DD1200BF169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A12163732C75DD1300BF169A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A12163762C75DD1300BF169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A12163782C75DD1300BF169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B87003D9B8CD767A944B8557 /* Pods-JY_Refresh_CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JY_Refresh_CollectionView.release.xcconfig"; path = "Target Support Files/Pods-JY_Refresh_CollectionView/Pods-JY_Refresh_CollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		B90161AE742159DD98925DBE /* Pods_JY_Refresh_CollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JY_Refresh_CollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,15 +44,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A1148C382C75DEDD0061CA8B /* JYRefreshView */ = {
-			isa = PBXGroup;
-			children = (
-				A1148C392C75DEFD0061CA8B /* JY_Refresh_CollectionView.swift */,
-				A1148C3B2C75DF2B0061CA8B /* JY_Refresh_TableView.swift */,
-			);
-			path = JYRefreshView;
-			sourceTree = "<group>";
-		};
 		A121635E2C75DD1200BF169A = {
 			isa = PBXGroup;
 			children = (
@@ -84,13 +65,9 @@
 		A12163692C75DD1200BF169A /* JY_Refresh_CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				A1148C382C75DEDD0061CA8B /* JYRefreshView */,
-				A121636A2C75DD1200BF169A /* AppDelegate.swift */,
-				A121636C2C75DD1200BF169A /* SceneDelegate.swift */,
-				A121636E2C75DD1200BF169A /* ViewController.swift */,
-				A12163702C75DD1200BF169A /* Main.storyboard */,
-				A12163732C75DD1300BF169A /* Assets.xcassets */,
-				A12163752C75DD1300BF169A /* LaunchScreen.storyboard */,
+				A11C6F9C2C75EF4F009539FC /* JY_Refresh_BaseView.swift */,
+				A11C6F9D2C75EF4F009539FC /* JY_Refresh_CollectionView.swift */,
+				A11C6F9E2C75EF4F009539FC /* JY_Refresh_TableView.swift */,
 				A12163782C75DD1300BF169A /* Info.plist */,
 			);
 			path = JY_Refresh_CollectionView;
@@ -165,9 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12163742C75DD1300BF169A /* Assets.xcassets in Resources */,
-				A12163772C75DD1300BF169A /* Base in Resources */,
-				A12163722C75DD1200BF169A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,34 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A121636F2C75DD1200BF169A /* ViewController.swift in Sources */,
-				A1148C3C2C75DF2B0061CA8B /* JY_Refresh_TableView.swift in Sources */,
-				A1148C3A2C75DEFD0061CA8B /* JY_Refresh_CollectionView.swift in Sources */,
-				A121636B2C75DD1200BF169A /* AppDelegate.swift in Sources */,
-				A121636D2C75DD1200BF169A /* SceneDelegate.swift in Sources */,
+				A11C6FA12C75EF4F009539FC /* JY_Refresh_TableView.swift in Sources */,
+				A11C6FA02C75EF4F009539FC /* JY_Refresh_CollectionView.swift in Sources */,
+				A11C6F9F2C75EF4F009539FC /* JY_Refresh_BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A12163702C75DD1200BF169A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A12163712C75DD1200BF169A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A12163752C75DD1300BF169A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A12163762C75DD1300BF169A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A12163792C75DD1300BF169A /* Debug */ = {
