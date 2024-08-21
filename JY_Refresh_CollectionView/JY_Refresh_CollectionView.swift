@@ -15,7 +15,7 @@ open class JY_Refresh_CollectionView: UICollectionView {
     private(set) lazy var yq_hidden_footer_refresh = true
     private(set) lazy var yq_hidden_header_refresh = false
     
-    override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
+    override public init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
         
         backgroundColor = UIColor.clear
