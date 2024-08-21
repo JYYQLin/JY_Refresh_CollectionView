@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   	spec.source_files  = "JY_Refresh_CollectionView/*.{h,m,swift}"
 	spec.swift_versions = ['5.0']
 
-  s.dependency 'MJRefresh',   '~> 3.7.9'
+  spec.dependency 'MJRefresh',   '~> 3.7.9'
 
 end
