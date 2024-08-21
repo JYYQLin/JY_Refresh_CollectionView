@@ -15,7 +15,7 @@ class JY_Refresh_TableView: UITableView {
     private(set) lazy var yq_hidden_footer_refresh = true
     private(set) lazy var yq_hidden_header_refresh = false
     
-    override init(frame: CGRect, style: UITableView.Style) {
+    override public init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
         
         backgroundColor = UIColor.clear
