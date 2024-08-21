@@ -21,9 +21,9 @@ class JY_Refresh_TableView: UITableView {
         backgroundColor = UIColor.clear
         contentInsetAdjustmentBehavior = .never
         automaticallyAdjustsScrollIndicatorInsets = false
-    }
+    }    
     
-    required init?(coder aDecoder: NSCoder) { fatalError("init(coder:) has not been implemented") }
+    required public init?(coder aDecoder: NSCoder) { fatalError("init(coder:) has not been implemented") }
     
 }
 
