@@ -8,7 +8,7 @@
 import UIKit
 
 open class JY_Base_TableViewCell: UITableViewCell {
-    override func layoutSubviews() {
+     open override func layoutSubviews() {
         super.layoutSubviews()
         
         self.isHidden = frame.height < 0.25
@@ -21,7 +21,7 @@ open class JY_Base_TableViewCell: UITableViewCell {
 
 open class JY_Base_CollectionViewCell: UICollectionViewCell {
     
-    override func layoutSubviews() {
+     open override func layoutSubviews() {
         super.layoutSubviews()
         
         self.isHidden = frame.height < 0.25
@@ -34,7 +34,7 @@ open class JY_Base_CollectionViewCell: UICollectionViewCell {
 
 
 open class JY_Base_CollectionReusableView: UICollectionReusableView {
-    override func layoutSubviews() {
+     open override func layoutSubviews() {
         super.layoutSubviews()
         
         self.isHidden = frame.height < 0.25
@@ -47,7 +47,7 @@ open class JY_Base_CollectionReusableView: UICollectionReusableView {
 
 open class JY_Base_TableViewHeaderFooterView: UITableViewHeaderFooterView {
     
-    override func layoutSubviews() {
+     open override func layoutSubviews() {
         super.layoutSubviews()
         
         self.isHidden = frame.height < 0.25
