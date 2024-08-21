@@ -7,19 +7,19 @@
 
 import UIKit
 
-class JY_Base_TableViewCell: UITableViewCell {
+open class JY_Base_TableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
         self.isHidden = frame.height < 0.25
     }
     
-    @objc class func yq_ID() -> String {
+    static func yq_ID() -> String {
         return "\(self)"
     }
 }
 
-class JY_Base_CollectionViewCell: UICollectionViewCell {
+open class JY_Base_CollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -27,25 +27,25 @@ class JY_Base_CollectionViewCell: UICollectionViewCell {
         self.isHidden = frame.height < 0.25
     }
     
-    @objc class func yq_ID() -> String {
+    static func yq_ID() -> String {
         return "\(self)"
     }
 }
 
 
-class JY_Base_CollectionReusableView: UICollectionReusableView {
+open class JY_Base_CollectionReusableView: UICollectionReusableView {
     override func layoutSubviews() {
         super.layoutSubviews()
         
         self.isHidden = frame.height < 0.25
     }
     
-    @objc class func yq_ID() -> String {
+    static func yq_ID() -> String {
         return "\(self)"
     }
 }
 
-class JY_Base_TableViewHeaderFooterView: UITableViewHeaderFooterView {
+open class JY_Base_TableViewHeaderFooterView: UITableViewHeaderFooterView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -53,7 +53,7 @@ class JY_Base_TableViewHeaderFooterView: UITableViewHeaderFooterView {
         self.isHidden = frame.height < 0.25
     }
     
-    @objc class func yq_ID() -> String {
+    static func yq_ID() -> String {
         return "\(self)"
     }
 }
