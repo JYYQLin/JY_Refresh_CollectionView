@@ -14,7 +14,7 @@ open class JY_Base_TableViewCell: UITableViewCell {
         self.isHidden = frame.height < 0.25
     }
     
-    static func yq_ID() -> String {
+    public static func yq_ID() -> String {
         return "\(self)"
     }
 }
@@ -27,7 +27,7 @@ open class JY_Base_CollectionViewCell: UICollectionViewCell {
         self.isHidden = frame.height < 0.25
     }
     
-    static func yq_ID() -> String {
+    public static func yq_ID() -> String {
         return "\(self)"
     }
 }
@@ -40,7 +40,7 @@ open class JY_Base_CollectionReusableView: UICollectionReusableView {
         self.isHidden = frame.height < 0.25
     }
     
-    static func yq_ID() -> String {
+    public static func yq_ID() -> String {
         return "\(self)"
     }
 }
@@ -53,7 +53,7 @@ open class JY_Base_TableViewHeaderFooterView: UITableViewHeaderFooterView {
         self.isHidden = frame.height < 0.25
     }
     
-    static func yq_ID() -> String {
+    public static func yq_ID() -> String {
         return "\(self)"
     }
 }
