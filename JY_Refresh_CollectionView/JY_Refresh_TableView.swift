@@ -9,8 +9,8 @@ import UIKit
 import MJRefresh
 
 class JY_Refresh_TableView: UITableView {
-    var yq_refresh_data_block: (() -> Void)?
-    var yq_refresh_more_data_block: (() -> Void)?
+    open var yq_refresh_data_block: (() -> Void)?
+    open var yq_refresh_more_data_block: (() -> Void)?
     
     private(set) lazy var yq_hidden_footer_refresh = true
     private(set) lazy var yq_hidden_header_refresh = false
