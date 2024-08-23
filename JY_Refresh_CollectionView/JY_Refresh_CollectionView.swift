@@ -9,8 +9,8 @@ import UIKit
 import MJRefresh
 
 open class JY_Refresh_CollectionView: UICollectionView {
-    var yq_refresh_data_block: (() -> Void)?
-    var yq_refresh_more_data_block: (() -> Void)?
+    open var yq_refresh_data_block: (() -> Void)?
+    open var yq_refresh_more_data_block: (() -> Void)?
     
     private(set) lazy var yq_hidden_footer_refresh = true
     private(set) lazy var yq_hidden_header_refresh = false
