@@ -2,7 +2,7 @@
 //  JY_Refresh_BaseView.swift
 //  JY_Refresh_CollectionView
 //
-//  Created by One Lang on 2024/8/21.
+//  Created by JYYQLin on 2024/8/21.
 //
 
 import UIKit
